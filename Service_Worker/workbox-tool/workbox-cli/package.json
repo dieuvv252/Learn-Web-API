@@ -1,0 +1,22 @@
+{
+  "name": "workbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-g": "npx workbox generateSW ./workbox-config.js",
+    "build-i": "npx workbox injectManifest ./workbox-config.js",
+    "build-w": "npx workbox wizard"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "workbox-cli": "^7.0.0"
+  },
+  "dependencies": {
+    "workbox-precaching": "^7.0.0"
+  }
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://vjs.zencdn.net/8.5.2/video-js.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link
+      rel="manifest"
+      href="./app.webmanifest"
+      crossorigin="use-credentials"
+    />
+    <title>Cache in Service Worker</title>
+  </head>
+  <body>
+    <div class="title">
+      <h1>Caching in Serviceaaaa Worker</h1>
+      <button>Delete cache</button>
+      <button id="add-img">Add image</button>
+
+      <a href="./nowhere.html">this link</a>
+    </div>
+    <div>
+      <video id="my-video" class="video-js" height="300" width="300">
+        <source
+          src="https://assets.afcdn.com/video49/20210722/v_645516.m3u8"
+          type="application/x-mpegURL"
+        />
+      </video>
+    </div>
+
+    <script src="https://vjs.zencdn.net/8.5.2/video.min.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
